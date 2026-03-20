@@ -1,6 +1,9 @@
 {
-  "buildCommand": "npm run build",
+  "projectSettings": {
+    "sourceFilesOutsideRootDirectory": true
+  },
+  "buildCommand": "cd frontend && npm run build",
   "outputDirectory": "frontend/dist",
   "framework": "vite",
-  "installCommand": "npm install --prefix frontend"
+  "installCommand": "npm install --no-save && npm install --prefix frontend"
 }

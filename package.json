@@ -1,0 +1,14 @@
+{
+  "name": "naskine-monorepo",
+  "version": "1.0.0",
+  "description": "NASKINE - Bisnis Kecantikan & Lotion Kulit",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
