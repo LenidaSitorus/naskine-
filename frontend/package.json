@@ -8,8 +8,8 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {},
   "devDependencies": {
+    "terser": "^5.46.1",
     "vite": "^5.0.8"
   }
 }
